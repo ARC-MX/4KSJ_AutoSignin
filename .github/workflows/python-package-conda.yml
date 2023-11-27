@@ -35,6 +35,7 @@ jobs:
     #     pytest
     - name: Login
       env:
-        SCKEY: ${{ secrets.UNAME },{ secrets.PASSWD }}
+        UNAME: ${{ secrets.UNAME }}
+        PASSWD: ${{ secrets.PASSWD }}
       run: |
         python 4ksj.py
