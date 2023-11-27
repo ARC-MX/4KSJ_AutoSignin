@@ -1,6 +1,6 @@
 #!/opt/conda/bin/python3.9
 import httpx
-import re
+import re, os
 import sys
 import time
 from urllib.parse import urlencode
