@@ -34,5 +34,7 @@ jobs:
     #     conda install pytest
     #     pytest
     - name: Login
+      env:
+        SCKEY: ${{ secrets.UNAME },{ secrets.PASSWD }}
       run: |
         python 4ksj.py
